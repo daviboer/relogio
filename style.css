@@ -1,0 +1,336 @@
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@font-face {
+  font-family: 'Segoe-print';
+  src: url(fonts/segoe-print-2.ttf) format('truetype');
+}
+
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+  }
+
+  header {
+    text-align: center;
+    margin-block: 2rem;
+  }
+
+  header .logo svg {
+    width: 80%;
+  }
+
+  .main {
+    background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(42px);
+    border-radius: 2.5rem;
+    border: 2px solid rgba(255, 255, 255, 0.932);
+
+    width: 32rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .relogio ,
+#dia {
+  display: flex;
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 5rem;
+  color: white;
+  margin-top: -1rem;
+}
+
+.main .content {
+  position: initial;
+  margin-top: -4rem;
+}
+
+.wraper-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+}
+
+#img-main {
+  display: none;
+}
+
+
+
+.brasilia {
+  font-family: 'Ubuntu';
+  color: white;
+  font-size: 1rem;
+  padding-inline: 2rem;
+  padding-block: 0.3rem;
+  font-weight: 300;
+
+  border-radius: 3rem;
+  border: 1px solid white;
+  width: fit-content;
+  margin-bottom: 2rem;
+}
+
+#txt1,
+.dia {
+  font-family: 'Segoe-print';
+  font-size: 2rem;
+  color: white;
+}
+
+
+/*======== 768 ===========*/
+@media (min-width: 767px) {
+
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+  }
+
+  header {
+    text-align: center;
+    margin-block: 2rem;
+  }
+  
+  header .logo svg {
+    width: initial;
+  }
+
+  .main {
+    background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(42px);
+    border-radius: 2.5rem;
+    border: 2px solid rgba(255, 255, 255, 0.932);
+  
+    padding: 2rem;
+    margin-inline: 10%;
+    display: flex;
+    width: initial;
+  }
+
+  .relogio ,
+#dia {
+  display: flex;
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 7rem;
+  color: white;
+  margin-top: -1.7rem;
+}
+
+.main .content {
+  position: absolute;
+  margin-left:30%;
+}
+
+#img-main {
+  display: initial;
+}
+
+#img-mobile {
+  display: none;
+}
+
+.wraper-main {
+  display: flex;
+  flex-direction: initial;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+
+.brasilia {
+  font-family: 'Ubuntu';
+  color: white;
+  font-size: 1rem;
+  padding-inline: 2rem;
+  padding-block: 0.3rem;
+  font-weight: 300;
+
+  border-radius: 3rem;
+  border: 1px solid white;
+  width: fit-content;
+  margin-bottom: 2rem;
+}
+
+#txt1,
+.dia {
+  font-family: 'Segoe-print';
+  font-size: 2rem;
+  color: white;
+}
+}
+
+/*======== 1024 ===========*/
+@media (min-width: 1024px) {
+
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+  }
+
+  header {
+    text-align: center;
+    margin-block: 2rem;
+  }
+
+  header .logo svg {
+    width: initial;
+  }
+
+  .main {
+    background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(42px);
+    border-radius: 2.5rem;
+    border: 2px solid rgba(255, 255, 255, 0.932);
+  
+    padding: 2rem;
+    margin-inline: 15%;
+    display: flex;
+  }
+
+  .relogio ,
+#dia {
+  display: flex;
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 8.7rem;
+  color: white;
+  margin-top: -1.7rem;
+}
+
+.main .content {
+  position: absolute;
+  margin-left:30%;
+}
+
+#img-main {
+  display: initial;
+}
+
+#img-mobile {
+  display: none;
+}
+
+.wraper-main {
+  display: flex;
+  flex-direction: initial;
+  align-items: center;
+  width: 100%;
+}
+
+
+.brasilia {
+  font-family: 'Ubuntu';
+  color: white;
+  font-size: 2rem;
+  padding-inline: 2rem;
+  padding-block: 0.3rem;
+  font-weight: 300;
+
+  border-radius: 3rem;
+  border: 1px solid white;
+  width: fit-content;
+  margin-bottom: 2rem;
+}
+
+#txt1,
+.dia {
+  font-family: 'Segoe-print';
+  font-size: 2rem;
+  color: white;
+}
+}
+
+
+/*======== 1324 ===========*/
+@media (min-width: 1324px) {
+
+header {
+   text-align: center;
+   margin-block: 3rem;
+}
+
+header .logo svg {
+  width: initial;
+}
+
+.main {
+  background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  backdrop-filter: blur(42px);
+  border-radius: 2.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.932);
+
+  padding: 3.4rem;
+  margin-inline: 15%;
+  display: flex;
+}
+
+.main .content {
+  transform: translateX(-22rem);
+  margin-top: 0.1rem;
+  position: initial;
+  margin-left: 0;
+}
+
+#img-main {
+  display: initial;
+}
+
+#img-mobile {
+  display: none;
+}
+
+.wraper-main {
+  display: flex;
+  flex-direction: initial;
+}
+
+.relogio ,
+#dia {
+  display: flex;
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 9.6rem;
+  color: white;
+  margin-top: -1.7rem;
+}
+
+.brasilia {
+  font-family: 'Ubuntu';
+  color: white;
+  font-size: 2rem;
+  padding-inline: 2.3rem;
+  padding-block: 0.7rem;
+  font-weight: 300;
+
+  border-radius: 3rem;
+  border: 1px solid white;
+  width: fit-content;
+  margin-bottom: 2rem;
+}
+
+#txt1,
+.dia {
+  font-family: 'Segoe-print';
+  font-size: 3.2rem;
+  color: white;
+}
+
+}
